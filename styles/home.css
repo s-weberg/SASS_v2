@@ -1,0 +1,25 @@
+.img {
+  max-width: 1110px;
+  height: 100vh;
+  display: flex;
+}
+.img__first {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.img__second {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.img__third {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.img__fourth {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}/*# sourceMappingURL=home.css.map */

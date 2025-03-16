@@ -1,0 +1,36 @@
+
+
+
+.img {
+    max-width: 1110px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+ 
+
+        &__first {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 150px;
+            margin-bottom: 20px;
+        }
+
+        &__second {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        &__third {
+            display: flex;
+            justify-content: center;
+            margin-left: 20px;
+            margin-top: -104px;
+        }
+
+        &__fourth {
+            display: flex;
+            justify-content: flex-end;
+            margin-left: 27px;
+            margin-top: 268px;
+        }
+}

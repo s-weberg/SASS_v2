@@ -23,3 +23,10 @@
   justify-content: flex-end;
   margin: 20px;
 }/*# sourceMappingURL=home.css.map */
+
+.img__painting-big {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+

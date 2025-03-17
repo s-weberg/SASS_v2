@@ -44,10 +44,19 @@
   margin-left: 27px;
   margin-top: 268px;
 }
-
-body {
-  background: #FFFFFF;
-  color: #111111;
+.img__trees {
+  width: 350px;
+  margin-top: 45px;
+}
+.img__flowers {
+  margin-top: 45px;
+  width: 350px;
+  margin-left: 30px;
+}
+.img__darkness {
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 45px;
 }
 
 .page {
@@ -71,14 +80,14 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  position: fixed;
+  position: absolute;
   top: 2em;
   width: 100%;
   padding: 20px 0px 20px 0px;
 }
 
 .nav-bar {
-  position: fixed;
+  position: absolute;
   top: 2em;
   width: 100%;
   padding: 20px 0px 20px 0px;
@@ -103,6 +112,25 @@ body {
 .nav-bar ul li a:hover {
   background-color: #919191;
   opacity: 80%;
+}
+
+body {
+  background: #FFFFFF;
+  color: #111111;
+}
+
+.page {
+  max-width: 1150px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .main {
@@ -195,8 +223,17 @@ body {
 }
 
 .awards {
-  width: 80%;
-  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .awards .awards__box {
   font-family: "Mulish", sans-serif;
@@ -225,6 +262,59 @@ body {
   margin: 20px;
 }
 .awards .awards__genesis {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  justify-self: baseline;
+  margin: 20px;
+}
+
+.line-second {
+  max-width: 1110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.line-second .line-second__empty {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  justify-self: baseline;
+  margin: 20px;
+}
+.line-second .line-second__bestnav {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  justify-self: baseline;
+  margin: 20px;
+}
+.line-second .line-second__template {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;

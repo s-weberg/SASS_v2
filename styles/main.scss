@@ -1,5 +1,6 @@
 
-@import 'home';
+@import 'images';
+@import 'header';
 
 $primary-color: #FFFFFF;
 $accent-color: #ff652f;
@@ -19,7 +20,7 @@ body {
 
 
 .page {
-  max-width: 1110px;
+  max-width: 1150px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -27,43 +28,6 @@ body {
 }
   
 
-
-.logo {
-  display: flex;
-  justify-content: flex-start;
-  position: fixed;
-  top: 2em;
-  width: 100%;
-  padding: 20px 0px 20px 0px;
-}
-
-.nav-bar {
-  position: fixed;
-  top: 2em;
-  width: 100%;
-  padding: 20px 0px 20px 0px;
-  ul {
-    text-align: center;
-    list-style-type: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    li {
-      display: inline;
-      font-family: "Mulish", sans-serif;
-      font-size: 17px;
-      a {
-        color: #111111;
-        text-decoration: none;
-        padding: 14px;
-        &:hover {
-          background-color: #919191;
-          opacity: 80%;
-        }
-      }
-    }
-  }
-}
 
 .main {
    
@@ -155,8 +119,11 @@ body {
 
 
 .awards {
-    width: 80%;
-    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    justify-content: space-between;
 
     #{&}__box {
       font-family: "Mulish", sans-serif;
@@ -194,6 +161,54 @@ body {
       margin: 20px;
     }
 }
+
+
+
+
+.line-second {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: baseline;
+  justify-content: space-between;
+
+  #{&}__empty {
+    font-family: "Mulish", sans-serif;
+    font-weight: map-get($font-weight, bold);
+    font-size: 22px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    justify-self: baseline;
+    margin: 20px;
+  }
+
+  #{&}__bestnav {
+    font-family: "Mulish", sans-serif;
+    font-weight: map-get($font-weight, bold);
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    justify-self: baseline;
+    margin: 20px;
+  }
+
+  #{&}__template {
+    font-family: "Mulish", sans-serif;
+    font-weight: map-get($font-weight, normal);
+    font-size: 16px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    justify-self: baseline;
+    margin: 20px;
+  }
+}
+
 
 
 

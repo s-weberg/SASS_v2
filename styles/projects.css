@@ -114,6 +114,14 @@
   margin-top: 45px;
 }
 
+.img {
+  max-width: 1110px;
+  width: 100%;
+}
+.img__map {
+  width: 1110px;
+}
+
 body {
   background: #FFFFFF;
   color: #111111;

@@ -1,0 +1,52 @@
+.page {
+  max-width: 1110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: absolute;
+  top: 2em;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-nav {
+  position: absolute;
+  top: 2em;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+.footer-nav ul {
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+.footer-nav ul li {
+  display: inline;
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+}
+.footer-nav ul li a {
+  color: #111111;
+  text-decoration: none;
+  padding: 14px;
+}
+.footer-nav ul li a:hover {
+  background-color: #919191;
+  opacity: 80%;
+}

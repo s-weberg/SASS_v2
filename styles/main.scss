@@ -209,6 +209,50 @@ body {
   }
 }
 
+.css-third {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: baseline;
+  justify-content: space-between;
+
+  #{&}__design-awards {
+    font-family: "Mulish", sans-serif;
+    font-weight: map-get($font-weight, bold);
+    font-size: 22px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    justify-self: baseline;
+    margin: 20px;
+  }
+
+  #{&}__site-of-day {
+    font-family: "Mulish", sans-serif;
+    font-weight: map-get($font-weight, bold);
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    justify-self: baseline;
+    margin: 20px;
+  }
+
+  #{&}__genesis-ui-kit {
+    font-family: "Mulish", sans-serif;
+    font-weight: map-get($font-weight, normal);
+    font-size: 16px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    justify-self: baseline;
+    margin: 20px;
+  }
+}
+
 
 
 

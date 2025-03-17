@@ -59,6 +59,14 @@
   margin-top: 45px;
 }
 
+.img {
+  max-width: 1110px;
+  width: 100%;
+}
+.img__map {
+  width: 1110px;
+}
+
 .page {
   max-width: 1110px;
   width: 100%;
@@ -315,6 +323,59 @@ body {
   margin: 20px;
 }
 .line-second .line-second__template {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  justify-self: baseline;
+  margin: 20px;
+}
+
+.css-third {
+  max-width: 1110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.css-third .css-third__design-awards {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  justify-self: baseline;
+  margin: 20px;
+}
+.css-third .css-third__site-of-day {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  justify-self: baseline;
+  margin: 20px;
+}
+.css-third .css-third__genesis-ui-kit {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;

@@ -1,5 +1,5 @@
 @import 'header';
-@import 'images';
+@import 'footer';
 
 
 $primary-color: #FFFFFF;
@@ -52,37 +52,19 @@ body {
     letter-spacing: 0px;
 }
 
-.table {
+.form-container {
   display: flex;
   display: inline-block;
 }
 
-.projects {
-    width: 150px;
-    height: 32px;
-    font-family: "Mulish", sans-serif;
-    font-weight: map-get($font-weight, bold);
-    font-size: 18px;
-    line-height: auto;
-    letter-spacing: 0px;
-    opacity: 50%;    
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+ 
 }
 
-.portfolio {
-  font-family: "Mulish", sans-serif;
-  font-weight: map-get($font-weight, bold);
-  font-size: 18px;
-  line-height: auto;
-  letter-spacing: 0px;
+.map {
+  margin: 20px;
 }
-
-.middle-text {
-    font-family: "Mulish", sans-serif;
-    font-weight: map-get($font-weight, normal);
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    margin-top: 45px;
-}
-
 

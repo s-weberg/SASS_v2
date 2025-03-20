@@ -1,6 +1,7 @@
 
-@import 'images';
+@import 'pictures';
 @import 'header';
+@import 'footer';
 
 $primary-color: #FFFFFF;
 $accent-color: #ff652f;
@@ -33,31 +34,32 @@ body {
    
   max-width: 1110px;
   width: 100%;
-    
-    #{&}__subheadline {
-      font-family: "Mulish", sans-serif;
+
+  &__subheadline {
+    font-family: "Mulish", sans-serif;
       font-weight: map-get($font-weight, bold);
       color: #4A4FF2;
       font-size: 22px;
       max-width: 173px;
       width: 100%;
       margin-top: 6em;
+      }
+
+      &__headline {
+        font-family: "Mulish", sans-serif;
+        font-weight: map-get($font-weight, bold);
+        font-size: 40px;
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        display: inline-block;
     }
 
-    #{&}__headline {
-      font-family: "Mulish", sans-serif;
-      font-weight: map-get($font-weight, bold);
-      font-size: 40px;
-      max-width: 600px;
-      width: 100%;
-      display: flex;
-      display: inline-block;
-  }
-    #{&}__newcolor {
+      &__newcolor {
       color: #4A4FF2;
     }
 
-    #{&}__quote {
+    &__quote {
       font-family: "Mulish", sans-serif;
       font-weight: map-get($font-weight, normal);
       font-size: 18px;
@@ -70,10 +72,10 @@ body {
       margin-top: 194px;     
     }
 
-    #{&}__overline {
+    &__overline {
       text-decoration-line: overline;
     }
-}
+  }
 
 .info-box {
       font-family: "Mulish", sans-serif;

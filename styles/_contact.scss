@@ -27,29 +27,29 @@ body {
   justify-self: center;
 }
 
-.main { 
+.conhead { 
     max-width: 1110px;
     width: 100%;
-    margin-top: 8em;
-    display: flex;
-    display: inline-block;
-}
+  
 
-#{&}__headline {
-    font-family: "Mulish", sans-serif;
-    font-weight: map-get($font-weight, bold);
-    font-size: 40px;
-    max-width: 300px;
-    width: 100%;
+
+  &__conheadline {
+      font-family: "Mulish", sans-serif;
+      font-weight: map-get($font-weight, bold);
+      font-size: 40px;
+      max-width: 300px;
+      width: 100%;
 
 }
 
-#{&}__text {
-    font-family: "Mulish", sans-serif;
-    font-weight: map-get($font-weight, normal);
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0px;
+  &__context {
+      font-family: "Mulish", sans-serif;
+      font-weight: map-get($font-weight, normal);
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0px;
+}
+
 }
 
 .form-container {

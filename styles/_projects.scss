@@ -28,23 +28,21 @@ body {
   justify-self: center;
 }
 
-.main { 
+.headpro { 
     max-width: 1110px;
     width: 100%;
-    margin-top: 8em;
-    display: flex;
-    display: inline-block;
+  
+   
 
-    &__headline {
+    &__proheadline {
       font-family: "Mulish", sans-serif;
       font-weight: map-get($font-weight, bold);
       font-size: 40px;
       max-width: 500px;
       width: 100%;
-   
     }
 
-      &__text {
+      &__protext {
         font-family: "Mulish", sans-serif;
         font-weight: map-get($font-weight, normal);
         font-size: 16px;

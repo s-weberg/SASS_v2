@@ -4,7 +4,7 @@
 @import 'footer';
 
 $primary-color: #FFFFFF;
-$accent-color: #ff652f;
+
 $text-color: #111111;
 $font-weight: (
   "normal": 400,
@@ -36,7 +36,7 @@ body {
   width: 100%;
 
   &__subheadline {
-    font-family: "Mulish", sans-serif;
+      font-family: "Mulish", sans-serif;
       font-weight: map-get($font-weight, bold);
       color: #4A4FF2;
       font-size: 22px;
@@ -55,25 +55,23 @@ body {
         display: inline-block;
     }
 
-      &__newcolor {
-      color: #4A4FF2;
+        &__newcolor {
+          color: #4A4FF2;
     }
 
-    &__quote {
-      font-family: "Mulish", sans-serif;
-      font-weight: map-get($font-weight, normal);
-      font-size: 18px;
-      font-style: italic;
-      max-width: 207px;
-      width: 100%;
-      display: flex;
-      display: inline-block;
-      margin-left: 190px;
-      margin-top: 194px;     
+        &__quote {
+          font-family: "Mulish", sans-serif;
+          font-weight: map-get($font-weight, normal);
+          font-size: 17px;
+          font-style: italic;
+          max-width: 207px;
+          width: 100%;
+          display: flex;
+          display: inline-block; 
     }
 
-    &__overline {
-      text-decoration-line: overline;
+        &__overline {
+          text-decoration-line: overline;
     }
   }
 
@@ -81,12 +79,91 @@ body {
       font-family: "Mulish", sans-serif;
       font-weight: map-get($font-weight, bold);
       font-size: 28px;
-      max-width: 1440px;
-      width: 100%;
-      display: flex;
-      align-items: baseline;
-      margin-top: 93px;
-   
+}
+
+.table-home {
+  max-width: 1110px;
+  width: 100%;
+  margin: 20px 0 20px 0px;
+}
+
+.awards {
+      font-family: "Mulish", sans-serif;
+      font-weight: map-get($font-weight, bold);
+      font-size: 22px;
+      line-height: auto;
+}
+
+.site-of-day {
+      font-family: "Mulish", sans-serif;
+      font-weight: map-get($font-weight, bold);
+      font-size: 18px;
+      line-height: auto;
+}
+
+.genesis {
+      font-family: "Mulish", sans-serif;
+      font-weight: map-get($font-weight, normal);
+      font-size: 16px;
+      line-height: auto;
+}
+
+.year {
+  font-family: "Mulish", sans-serif;
+  font-weight: map-get($font-weight, normal);
+  font-size: 16px;
+  line-height: auto;
+}
+
+.genesis-info {
+  font-family: "Mulish", sans-serif;
+  font-weight: map-get($font-weight, normal);
+  font-size: 16px;
+  line-height: 26px;
+  height: 90px;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+/*
+.box {
+    display: flex;
+    flex-direction: row;
+
+    &__info {
+      font-family: "Mulish", sans-serif;
+      font-weight: map-get($font-weight, bold);
+      font-size: 18px;
+    }
+}
+
+.info {
+  font-family: "Mulish", sans-serif;
+      font-weight: map-get($font-weight, bold);
+      font-size: 100px;
+     
+}
+
+.nav-first {
+  font-family: "Mulish", sans-serif;
+  font-weight: map-get($font-weight, normal);
+  font-size: 18px;
+  line-height: auto;
+  letter-spacing: 0px;
+  display: flex;
+  display: inline-block;
+
+}
+
+.nav-second {
+  font-family: "Mulish", sans-serif;
+  font-weight: map-get($font-weight, normal);
+  font-size: 18px;
+  line-height: auto;
+  letter-spacing: 0px;
+  display: flex;
+  display: inline-block;
 }
 
 
@@ -105,10 +182,7 @@ body {
     list-style-type: none;
 
     li {
-      width: 150px;
-      margin: 20px;
-      font-family: "Mulish", sans-serif;
-      font-size: 17px;
+      
 
       a {
         color: #111111;
@@ -116,7 +190,7 @@ body {
       }
     }
   }
-}
+
 
 
 
@@ -253,7 +327,7 @@ body {
     justify-self: baseline;
     margin: 20px;
   }
-}
+}*/
 
 
 
